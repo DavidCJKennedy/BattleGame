@@ -14,6 +14,11 @@
 		CE7F3C061D538AA5008BD900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7F3C041D538AA5008BD900 /* LaunchScreen.storyboard */; };
 		CE7F3C111D538AA6008BD900 /* Rgp_OppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F3C101D538AA6008BD900 /* Rgp_OppTests.swift */; };
 		CE7F3C1C1D538AA6008BD900 /* Rgp_OppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F3C1B1D538AA6008BD900 /* Rgp_OppUITests.swift */; };
+		CE7F3C2A1D538B82008BD900 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F3C291D538B82008BD900 /* Character.swift */; };
+		CE7F3C2C1D538CEF008BD900 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F3C2B1D538CEF008BD900 /* Player.swift */; };
+		CE7F3C2E1D538E9E008BD900 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F3C2D1D538E9E008BD900 /* Enemy.swift */; };
+		CE7F3C301D5390BB008BD900 /* Kimara.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F3C2F1D5390BB008BD900 /* Kimara.swift */; };
+		CE7F3C321D5391FB008BD900 /* Devil Wizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F3C311D5391FB008BD900 /* Devil Wizard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		CE7F3C171D538AA6008BD900 /* Rgp OppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rgp OppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7F3C1B1D538AA6008BD900 /* Rgp_OppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rgp_OppUITests.swift; sourceTree = "<group>"; };
 		CE7F3C1D1D538AA6008BD900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7F3C291D538B82008BD900 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		CE7F3C2B1D538CEF008BD900 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		CE7F3C2D1D538E9E008BD900 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		CE7F3C2F1D5390BB008BD900 /* Kimara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kimara.swift; sourceTree = "<group>"; };
+		CE7F3C311D5391FB008BD900 /* Devil Wizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Devil Wizard.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				CE7F3C021D538AA5008BD900 /* Assets.xcassets */,
 				CE7F3C041D538AA5008BD900 /* LaunchScreen.storyboard */,
 				CE7F3C071D538AA5008BD900 /* Info.plist */,
+				CE7F3C291D538B82008BD900 /* Character.swift */,
+				CE7F3C2B1D538CEF008BD900 /* Player.swift */,
+				CE7F3C2D1D538E9E008BD900 /* Enemy.swift */,
+				CE7F3C2F1D5390BB008BD900 /* Kimara.swift */,
+				CE7F3C311D5391FB008BD900 /* Devil Wizard.swift */,
 			);
 			path = "Rgp Opp";
 			sourceTree = "<group>";
@@ -256,8 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE7F3C2C1D538CEF008BD900 /* Player.swift in Sources */,
+				CE7F3C2E1D538E9E008BD900 /* Enemy.swift in Sources */,
+				CE7F3C301D5390BB008BD900 /* Kimara.swift in Sources */,
+				CE7F3C2A1D538B82008BD900 /* Character.swift in Sources */,
 				CE7F3BFE1D538AA5008BD900 /* ViewController.swift in Sources */,
 				CE7F3BFC1D538AA5008BD900 /* AppDelegate.swift in Sources */,
+				CE7F3C321D5391FB008BD900 /* Devil Wizard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +421,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.DavidKennedy.Rgp-Opp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -412,6 +433,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.DavidKennedy.Rgp-Opp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
